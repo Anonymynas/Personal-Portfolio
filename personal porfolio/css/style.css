@@ -21,7 +21,7 @@ html{
 }
 
 body{
-    background: #cacaca;
+    background: #eeeeee;
     padding-left: 30rem;
 }
 
@@ -72,16 +72,13 @@ header{
     text-transform: uppercase;
 }
 
-header .logo{
-    text-transform: uppercase;
-    color:#fff;
-    font-size: 3rem;
-    font-weight: bolder;
-}
-
-header .logo span{
-    text-transform: uppercase;
-    color:var(--main-color);
+header .user img{
+    height:13rem;
+    width:13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:.5rem solid var(--main-color);
 }
 
 header .navbar a{
@@ -160,7 +157,9 @@ header .follow a:hover{
     padding:.5rem 0;
 }
 
+/*justify text for home*/
 .home .content .text{
+    text-align: justify;
     font-size: 1.7rem;
     color:#666;
     padding:.5rem 0;
@@ -195,7 +194,9 @@ header .follow a:hover{
     font-size: 3.5rem;
 }
 
+/*justify text for about*/
 .about .row-1 .content p{
+    text-align: justify;
     color:#666;
     font-size: 1.7rem;
     padding:.5rem 0;
@@ -333,7 +334,9 @@ header .follow a:hover{
     color:#111;
 }
 
+/*justify text for exp*/
 .experience .box-container .box .content p{
+    text-align: justify;
     font-size: 1.5rem;
     color:#666;
 }
