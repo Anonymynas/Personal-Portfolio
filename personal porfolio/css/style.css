@@ -21,7 +21,7 @@ html{
 }
 
 body{
-    background: #cccaca;
+    background: #cacaca;
     padding-left: 30rem;
 }
 
@@ -240,11 +240,13 @@ header .follow a:hover{
 
 .about .row-2 .box-container .box h3{
     color:var(--main-color);
-    font-size: 3rem;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .about .row-2 .box-container .box p{
     color:#666;
+    text-align: center;
     font-size: 1.7rem;
     padding-top: .5rem;
 }
