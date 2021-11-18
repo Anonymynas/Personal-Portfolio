@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#b90fc9;
+    --main-color:#b90fc9; /* main colour*/
 }
 
-*{
+*{  /* main font*/
     font-family: 'Roboto', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
@@ -20,7 +20,7 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
+body{  /* background colour*/
     background: #eeeeee;
     padding-left: 30rem;
 }
@@ -30,7 +30,7 @@ section{
     min-height: 100vh;
 }
 
-.heading{
+.heading{ /* colour of title  */
     font-size: 4rem;
     padding-bottom: 1rem;
     color:#111;
@@ -42,7 +42,7 @@ section{
     text-transform: uppercase;
 }
 
-.btn{
+.btn{   /* colour of about me font*/
     display: inline-block;
     margin-top: 1rem;
     padding:.8rem 3rem;
@@ -52,12 +52,12 @@ section{
     font-size: 1.7rem;
 }
 
-.btn:hover{
+.btn:hover{  /* hover on box colour */
     background:#111;
     letter-spacing: .2rem;
 }
 
-header{
+header{   /* menu setting*/
     position: fixed;
     top:0; left:0; bottom:0;
     background:#222;
@@ -81,7 +81,7 @@ header .user img{
     border:.5rem solid var(--main-color);
 }
 
-header .navbar a{
+header .navbar a{  /* menu selection */
     display: block;
     font-size: 2rem;
     color:#fff;
@@ -93,7 +93,7 @@ header .navbar a:hover{
     color:var(--main-color);
 }
 
-header .follow a{
+header .follow a{  /* social media on menu*/
     font-size: 2.5rem;
     color:#fff;
     margin:0 .7rem;
@@ -103,7 +103,7 @@ header .follow a:hover{
     color:var(--main-color);
 }
 
-#menu-bars{
+#menu-bars{  /* menu button*/
     position: fixed;
     top:1rem; right: 1rem;
     z-index: 10000;
@@ -140,7 +140,7 @@ header .follow a:hover{
     color:var(--main-color);
 }
 
-.home .content h3{
+.home .content h3{  /* name section*/
     font-size: 4.5rem;
     color:#111;
     text-transform: uppercase;
@@ -151,7 +151,7 @@ header .follow a:hover{
     text-transform: uppercase;
 }
 
-.home .content .info{
+.home .content .info{  /* simple description on profile*/
     font-size: 2.5rem;
     color:#111;
     padding:.5rem 0;
@@ -231,7 +231,7 @@ header .follow a:hover{
     gap:1.5rem;
 }
 
-.about .row-2 .box-container .box{
+.about .row-2 .box-container .box{  /* skill box settings*/
     flex:1 1 15rem;
     background:#fff;
     padding:2rem;
@@ -245,7 +245,7 @@ header .follow a:hover{
     font-size: 2rem;
 }
 
-.about .row-2 .box-container .box p{
+.about .row-2 .box-container .box p{ /* skill description settings*/
     color:#666;
     text-align: center;
     font-size: 1.7rem;
@@ -258,7 +258,7 @@ header .follow a:hover{
     gap:1.5rem;
 }
 
-.service .box-container .box{
+.service .box-container .box{ /* "Service page settings*/
     flex:1 1 30rem;
     text-align: center;
     padding:2rem;
@@ -267,7 +267,7 @@ header .follow a:hover{
     box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
-.service .box-container .box i{
+.service .box-container .box i{ /* icon on "service page" settings*/
     height:6rem;
     width:6rem;
     line-height: 6rem;
@@ -277,19 +277,19 @@ header .follow a:hover{
     border-radius: 50%;
 }
 
-.service .box-container .box h3{
+.service .box-container .box h3{ /* title "Service" settings*/
     color:#444;
     font-size: 2.2rem;
     padding-top: 1rem;
 }
 
-.service .box-container .box p{
+.service .box-container .box p{ /*Description individual box settings*/
     color:#666;
     font-size: 1.7rem;
     padding-top: .5rem;
 }
 
-.experience .box-container{
+.experience .box-container{ /* Experience page settings*/
     display: flex;
     flex-wrap: wrap;
 }
@@ -313,14 +313,14 @@ header .follow a:hover{
     background:var(--main-color);
 }
 
-.experience .box-container .box .content{
+.experience .box-container .box .content{ /* box settings*/
     background:#fff;
     padding:1.5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
 }
 
-.experience .box-container .box .content span{
+.experience .box-container .box .content span{ /*year settings*/
     color:#fff;
     font-size: 1.7rem;
     background:var(--main-color);
@@ -328,7 +328,7 @@ header .follow a:hover{
     padding:.4rem 1rem;
 }
 
-.experience .box-container .box .content h3{
+.experience .box-container .box .content h3{ /*Tittle settings*/
     font-size: 2.5rem;
     padding:.5rem 0;
     color:#111;
@@ -341,13 +341,13 @@ header .follow a:hover{
     color:#666;
 }
 
-.project .box-container{
+.project .box-container{ /*Project page settings*/
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
 }
 
-.project .box-container .box{
+.project .box-container .box{ /* box settings*/
     flex:1 1 30rem;
     height:25rem;
     position: relative;
@@ -358,7 +358,7 @@ header .follow a:hover{
     border-radius: .5rem;
 }
 
-.project .box-container .box img{
+.project .box-container .box img{ /*box image settings*/
     height:100%;
     width:100%;
     object-fit: cover;
@@ -367,12 +367,12 @@ header .follow a:hover{
     z-index: 1;
 }
 
-.project .box-container .box:hover img{
+.project .box-container .box:hover img{ /*box hover settings*/
     height:75%;
     width:75%;
 }
 
-.project .box-container .box h3{
+.project .box-container .box h3{ /* box title after hover*/
     position: absolute;
     bottom:.5rem; left:1rem;
     font-size: 2.5rem;
@@ -385,7 +385,7 @@ header .follow a:hover{
     top:1rem; right:1rem;
 }
 
-.project .box-container .box .icons a{
+.project .box-container .box .icons a{ /* link & share settings on project */
     display: block;
     height:4rem;
     width:4rem;
@@ -398,19 +398,19 @@ header .follow a:hover{
     margin-bottom: 1rem;
 }
 
-.project .box-container .box .icons a:hover{
+.project .box-container .box .icons a:hover{ /* Link & share icon settings*/
     background:var(--main-color);
     color:#fff;
 }
 
-.contact .icons-container{
+.contact .icons-container{ /* Contact me page settings*/
     display: flex;
     gap:1.5rem;
     flex-wrap: wrap;
     padding-bottom: 2rem;
 }
 
-.contact .icons-container .icons{
+.contact .icons-container .icons{ /* box settings*/
     flex:1 1 25rem;
     text-align: center;
     padding:2rem;
@@ -419,7 +419,7 @@ header .follow a:hover{
     border-radius: .5rem;
 }
 
-.contact .icons-container .icons i{
+.contact .icons-container .icons i{ /* icon settings*/
     height:5rem;
     width:5rem;
     line-height: 5rem;
@@ -429,14 +429,14 @@ header .follow a:hover{
     border-radius: 50%;
 }
 
-.contact .icons-container .icons h3{
+.contact .icons-container .icons h3{ /* tittle each box settings*/
     color:#111;
     font-size: 2rem;
     padding:.5rem 0;
     padding-top: 1rem;
 }
 
-.contact .icons-container .icons p{
+.contact .icons-container .icons p{ /*contact description settings*/
     color:#666;
     font-size: 1.7rem;
 }
