@@ -6,4 +6,4 @@ This project is a simple portfolio website that can act like a resume where user
 project that involved and services that the user provided in order to attract employer or to show to the employer their skills in 
 term of Front-End Development.
 
-email : muhammad.nasrullah@ug.must.edu.my  || 
+email : muhammad.nasrullah@ug.must.edu.my  || muhammad.fauzan@ug.must.edu.my
